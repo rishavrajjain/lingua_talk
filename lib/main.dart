@@ -1,14 +1,16 @@
 
 
+import 'package:agora_flutter_quickstart/profileMenu.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'checkbox.dart';
 import 'src/pages/index.dart';
 import 'videoPlayer.dart';
 
 import 'dhiyo.dart';
 
 void main() => runApp(MaterialApp(
-  home:Pager(),
+  home:  Pager(),      //YourHomePage(),
  debugShowCheckedModeBanner: false
 ));
 
@@ -24,6 +26,7 @@ class _PagerState extends State<Pager> {
   final Dhiyo dhiyoPage = Dhiyo();
   final IndexPage agoraPage = IndexPage();
   final VideoPlayer videoPlayer = VideoPlayer();
+  final ProfileMenu profileMenu = ProfileMenu();
 
   Widget showPage = VideoPlayer();
 
@@ -39,7 +42,7 @@ class _PagerState extends State<Pager> {
         return dhiyoPage;
         break;
       case 3:
-        return dhiyoPage;
+        return profileMenu;
         break;
       default:
         return Container();

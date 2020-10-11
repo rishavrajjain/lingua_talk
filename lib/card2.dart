@@ -1,3 +1,4 @@
+import 'package:agora_flutter_quickstart/mainCard.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'videoClass.dart';
@@ -57,7 +58,7 @@ class _MatchCardState extends State<MatchCard2> {
                       Icons.calendar_today,
                       color: third,
                     ),
-                    "English"),
+                    "Spanish"),
               ),
               SizedBox(height:3),
                Padding(
@@ -70,7 +71,7 @@ class _MatchCardState extends State<MatchCard2> {
               Padding(
                 padding: EdgeInsets.fromLTRB(10, 2, 2, 2),
                 child: buildRow(
-                    Icon(Icons.monetization_on, color: third), "Hindi"),
+                    Icon(Icons.monetization_on, color: third), "English"),
               ),
               Padding(
                   padding: EdgeInsets.fromLTRB(10, 2, 2, 0),
@@ -135,7 +136,7 @@ class _MatchCardState extends State<MatchCard2> {
                         highlightColor: Colors.purple[200],
                         onTap: () => Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => IndexPage()),
+                          MaterialPageRoute(builder: (context) => MainCard()),
                         ),
                         child: Padding(
                           padding: EdgeInsets.all(15),

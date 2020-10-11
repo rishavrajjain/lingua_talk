@@ -298,8 +298,8 @@ class _CallPageState extends State<CallPage> {
       body: Center(
         child: Stack(
           children: <Widget>[
-            _viewRows(),
-            _panel(),
+           _viewRows(),
+           // _panel(),
             _toolbar(),
           ],
         ),

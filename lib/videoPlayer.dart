@@ -35,6 +35,12 @@ class _VideoPlayerState extends State<VideoPlayer> {
                     videoURL: 'https://www.youtube.com/watch?v=hsLYD1Jyf3A',
                     title: 'Learn how to say the letters and sounds in Spanish ',
                   ),
+                   SizedBox(height: 18),
+                  VideoClass(
+                    videoURL:
+                        'https://www.youtube.com/watch?v=ge_0W6DDi3s',
+                    title: 'Cost of living in Spain',
+                  ),
                   SizedBox(height: 18),
                    VideoClass(
                     videoURL:

@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage2> {
           children: <Widget>[
             MatchCard2(
       // url: "https://www.google.com",
-      title: "English Teacher",
+      title: "Spanish Teacher",
       body:
           "Velit nisi Lorem nulla consectetur labore cillum sunt sunt deserunt excepteur elit ut. ",
       image:
@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage2> {
     ),
     MatchCard2(
       // url: "https://www.google.com",
-      title: "English Teacher",
+      title: "Spanish Teacher",
       body:
           "Laboris sunt duis qui exercitation aute. Laborum laboris cillum elit dolore consequat deserunt id. Cupidatat minim laborum aliquip officia laboris elit.",
       image:
